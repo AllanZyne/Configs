@@ -1,0 +1,11 @@
+[core]
+	autocrlf = false
+[user]
+	email = allanzyne@outlook.com
+	name = lazy
+[http]
+	proxy = socks5://127.0.0.1:1080
+[https]
+	proxy = socks5://127.0.0.1:1080
+[pull]
+	rebase = true
