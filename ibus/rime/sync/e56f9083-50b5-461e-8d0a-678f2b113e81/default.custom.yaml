@@ -1,0 +1,25 @@
+patch:
+  switcher:
+    abbreviate_options: true
+    caption: 〔切换〕
+    fold_options: true
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+
+  menu:
+    page_size: 5                 # 候选词数量
+
+  schema_list:
+    - schema: luna_pinyin_simp
+
+  ascii_composer:
+    switch_key:
+      Caps_Lock: commit_code
+      Control_L: commit_code
+      Control_R: noop
+      Eisu_toggle: clear
+      Shift_L: noop
+      Shift_R: noop

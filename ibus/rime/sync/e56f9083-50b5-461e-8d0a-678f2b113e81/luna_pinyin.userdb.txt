@@ -1,0 +1,588 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	1274
+#@/user_id	e56f9083-50b5-461e-8d0a-678f2b113e81
+a 	啊	c=1 d=0.00918669 t=1274
+a dao fu 	阿道夫	c=1 d=1 t=1258
+a si dun 	阿斯頓	c=0 d=0.1 t=1256
+a si dun fa 	阿斯頓法	c=1 d=1 t=1257
+an de sen 	安德森	c=0 d=0.1 t=1241
+an de sen fa dian suo fa 	安德森發電所法	c=1 d=1 t=1242
+an pai 	安排	c=2 d=0.0512109 t=1274
+ba 	吧	c=1 d=0.196912 t=1274
+ba 	把	c=5 d=1.52699 t=1274
+ba ta 	把它	c=1 d=0.115325 t=1274
+bai mang zhi zhong 	百忙之中	c=1 d=0.204948 t=1274
+bang ding 	綁定	c=1 d=0.0788664 t=1274
+bao chi 	保持	c=1 d=0.729789 t=1274
+bei ye 	貝葉	c=0 d=0.1 t=1266
+bei ye si 	貝葉斯	c=1 d=1 t=1267
+bi 	閉	c=1 d=0.680451 t=1274
+bi jiao 	比較	c=2 d=0.164184 t=1274
+bi li 	比例	c=1 d=0.778801 t=1274
+bi ru 	比如	c=2 d=0.148406 t=1274
+bian 	邊	c=1 d=0.117655 t=1274
+bian cheng yu yan 	編程語言	c=2 d=1.99501 t=1274
+bian liang 	變量	c=1 d=0.240508 t=1274
+biao 	表	c=1 d=0.822835 t=1274
+biao shi 	表示	c=5 d=1.38073 t=1274
+biao shi fa 	表示法	c=2 d=0.747112 t=1274
+bing 	並	c=1 d=0.0963276 t=1274
+bu 	不	c=1 d=0.682662 t=1274
+bu guo 	不過	c=3 d=0.425681 t=1274
+bu jie 	不解	c=1 d=0.0682212 t=1274
+bu li jie 	不理解	c=1 d=0.0997588 t=1274
+bu neng 	不能	c=1 d=1 t=1253
+bu qu 	不取	c=2 d=1.19524 t=1274
+bu shi 	不是	c=2 d=0.0881338 t=1274
+bu tong 	不同	c=8 d=1.02044 t=1274
+bu xiang 	不相	c=0 d=0.00301974 t=1274
+bu xiang jiao 	不相交	c=1 d=0.0303487 t=1274
+bu ying gai 	不應該	c=2 d=0.141787 t=1274
+cai shi 	纔是	c=1 d=0.278037 t=1274
+cang cu 	倉促	c=1 d=0.110803 t=1274
+ce liang 	測量	c=1 d=0.384812 t=1274
+ce shi 	測試	c=4 d=3.23471 t=1274
+ceng 	曾	c=2 d=0.176076 t=1274
+cha bie 	差別	c=3 d=1.54216 t=1274
+cha hua 	插畫	c=2 d=0.458715 t=1274
+cha yue 	查閱	c=1 d=0.0862936 t=1274
+chan sheng 	產生	c=1 d=0.0523397 t=1274
+chang 	常	c=0 d=0.00202419 t=1274
+chang xi shu 	常係數	c=1 d=0.0203434 t=1274
+chang yong 	常用	c=2 d=0.257082 t=1274
+cheng 	成	c=3 d=1.22678 t=1274
+cheng 	稱	c=2 d=0.343918 t=1274
+cheng fa 	乘法	c=1 d=1 t=1263
+cheng ji 	乘積	c=1 d=0.0109985 t=1274
+cheng li 	成立	c=1 d=0.0137049 t=1274
+cheng wei 	成爲	c=1 d=0.0159229 t=1274
+cheng yi 	乘以	c=1 d=0.276651 t=1274
+chi dao 	遲到	c=1 d=0.313486 t=1274
+chong 	重	c=1 d=0.0117371 t=1274
+chong gen 	重根	c=1 d=0.0220147 t=1274
+chong gen shu 	重根數	c=2 d=0.588202 t=1274
+chong xiu 	重修	c=1 d=0.321422 t=1274
+chong yuan 	重圓	c=1 d=0.0141223 t=1274
+chong zhi 	重置	c=1 d=0.329559 t=1274
+chu li 	處理	c=4 d=0.893462 t=1274
+chu li qi 	處理器	c=1 d=0.722527 t=1274
+chuang zao 	創造	c=1 d=0.181772 t=1274
+chun 	純	c=1 d=0.900325 t=1274
+ci dian 	詞典	c=1 d=0.00927901 t=1274
+ci ku 	詞庫	c=1 d=0.00937227 t=1274
+ci xu 	次序	c=1 d=0.369723 t=1274
+cong 	從	c=7 d=2.1198 t=1274
+cong gong 	從公	c=1 d=0.0330412 t=1274
+cou 	湊	c=1 d=0.0629761 t=1274
+cuo wu 	錯誤	c=1 d=0.740818 t=1274
+da 	打	c=1 d=0.0478349 t=1274
+da an 	答案	c=1 d=0.980199 t=1274
+da duo 	大多	c=1 d=0.0480747 t=1274
+da shi fu 	大師傅	c=0 d=0.00145524 t=1274
+da shi fu de 	大師傅的	c=1 d=0.0146253 t=1274
+da yu 	大於	c=1 d=0.412714 t=1274
+dai 	帶	c=2 d=0.104177 t=1274
+dai ma 	代碼	c=1 d=0.0837432 t=1274
+dai shu 	代數	c=2 d=1.28949 t=1274
+dan 	但	c=6 d=0.797654 t=1274
+dang 	當	c=9 d=2.61891 t=1274
+dang qian 	當前	c=2 d=0.927553 t=1274
+dao 	到	c=6 d=1.17696 t=1274
+dao dao 	道道	c=1 d=0.148823 t=1274
+de 	的	c=91 d=12.0585 t=1274
+de dao 	得到	c=1 d=0.151072 t=1274
+de zhi 	得知	c=1 d=0.139457 t=1274
+deng 	等	c=0 d=0.0257947 t=1274
+deng deng 	等等	c=1 d=0.18452 t=1274
+deng gai lv 	等概率	c=1 d=0.25924 t=1274
+deng ji 	等級	c=1 d=0.83527 t=1274
+deng tong yu 	等同於	c=1 d=0.481909 t=1274
+deng yu 	等於	c=1 d=0.416862 t=1274
+di 	第	c=5 d=0.905872 t=1274
+di er juan 	第二捲	c=1 d=0.034562 t=1274
+di gui 	遞歸	c=1 d=0.0205478 t=1274
+di tui 	遞推	c=2 d=0.0292668 t=1274
+dian 	點	c=1 d=0.606531 t=1274
+dian lie 	點列	c=1 d=0.579842 t=1274
+ding 	頂	c=1 d=0.806541 t=1274
+ding dian 	定點	c=1 d=0.802519 t=1274
+ding li 	定理	c=4 d=0.851965 t=1274
+ding liang 	定量	c=1 d=0.382893 t=1274
+ding yi 	定義	c=5 d=0.924742 t=1274
+ding zhe 	盯着	c=1 d=0.0623495 t=1274
+dou 	都	c=3 d=0.52229 t=1274
+dou shi 	都是	c=2 d=0.94895 t=1274
+du 	讀	c=2 d=0.148513 t=1274
+du dao 	讀到	c=1 d=0.0343896 t=1274
+du liang 	度量	c=1 d=0.615697 t=1274
+dui 	對	c=4 d=0.12498 t=1274
+dui bu qi 	對不起	c=1 d=0.302704 t=1274
+dui chen 	對稱	c=1 d=0.733447 t=1274
+dui ying 	對應	c=1 d=0.565525 t=1274
+duo 	多	c=1 d=0.0497871 t=1274
+duo chong 	多重	c=4 d=0.807391 t=1274
+duo xiang shi 	多項式	c=1 d=0.0241131 t=1274
+er xiang shi 	二項式	c=2 d=0.533345 t=1274
+er yuan 	二元	c=3 d=0.770916 t=1274
+fa 	法	c=3 d=1.63031 t=1274
+fa 	發	c=1 d=0.0137736 t=1274
+fa dian suo 	發電所	c=0 d=0.1 t=1241
+fan han 	泛函	c=3 d=1.62265 t=1274
+fan yan 	反演	c=1 d=0.0118551 t=1274
+fan zhi 	反之	c=1 d=0.0138427 t=1274
+fang 	放	c=2 d=0.931268 t=1274
+fang bian 	方便	c=1 d=0.0858632 t=1274
+fang cheng 	方程	c=8 d=2.75843 t=1274
+fang dao 	放到	c=1 d=0.084163 t=1274
+fang fa 	方法	c=2 d=0.0558078 t=1274
+fang kuang 	方框	c=1 d=0.348192 t=1274
+fei 	非	c=2 d=0.873809 t=1274
+fei fu 	非負	c=1 d=0.486752 t=1274
+fen bu 	分部	c=4 d=1.80299 t=1274
+fen bu liang 	分部量	c=1 d=0.501576 t=1274
+fen chai 	分拆	c=12 d=4.09324 t=1274
+fen jie 	分解	c=2 d=0.0406774 t=1274
+fen pei 	分配	c=2 d=0.0352885 t=1274
+feng 	馮	c=1 d=0.21336 t=1274
+feng lao shi 	馮老師	c=2 d=0.207907 t=1274
+fu 	夫	c=0 d=0.0240508 t=1274
+fu hao 	符號	c=2 d=1.08719 t=1274
+fu shu 	複數	c=3 d=2.50495 t=1274
+gai 	該	c=2 d=0.0934214 t=1274
+gai lv 	概率	c=2 d=2.0109 t=1274
+gan jiao 	感覺	c=1 d=1 t=1254
+gan xie 	感謝	c=1 d=0.20089 t=1274
+gang 	剛	c=1 d=0.0448245 t=1274
+ge 	個	c=12 d=3.44568 t=1274
+ge 	各	c=2 d=0.941714 t=1274
+ge bu xiang tong 	各不相同	c=1 d=0.506617 t=1274
+ge shu 	個數	c=4 d=1.27008 t=1274
+ge zi 	各自	c=1 d=0.527292 t=1274
+gen 	根	c=1 d=0.562705 t=1274
+gen 	跟	c=2 d=0.403861 t=1274
+gong kai ke 	公開課	c=1 d=0.343009 t=1274
+gong shi 	公式	c=7 d=5.72256 t=1274
+gu 	故	c=1 d=0.442639 t=1274
+guan xi 	關係	c=3 d=0.0500644 t=1274
+gui na 	歸納	c=1 d=0.0584257 t=1274
+guo 	過	c=1 d=0.117068 t=1274
+guo cheng 	過程	c=1 d=0.193013 t=1274
+guo jia 	國家	c=1 d=0.00932553 t=1274
+hai 	還	c=5 d=0.536016 t=1274
+hai ming 	海明	c=1 d=0.227638 t=1274
+hai shi 	還是	c=1 d=0.927743 t=1274
+hai wei 	還未	c=1 d=0.140858 t=1274
+hai xing 	還行	c=2 d=1.68429 t=1274
+hai you 	還有	c=2 d=0.204101 t=1274
+han 	函	c=1 d=0.286505 t=1274
+han 	含	c=3 d=2.03164 t=1274
+han shu 	函數	c=15 d=3.1852 t=1274
+hang 	行	c=1 d=0.0280154 t=1274
+he 	和	c=8 d=2.29568 t=1274
+he zi 	盒子	c=3 d=1.32254 t=1274
+hen duo 	很多	c=1 d=0.108067 t=1274
+hen li hai 	很厲害	c=1 d=1 t=1271
+heng pai 	橫排	c=1 d=0.923116 t=1274
+hou 	後	c=6 d=0.766479 t=1274
+hua 	化	c=1 d=0.212248 t=1274
+huan 	環	c=1 d=0.715338 t=1274
+huan wei 	換位	c=1 d=0.348192 t=1274
+huang hou 	皇后	c=1 d=0.882497 t=1274
+hui 	會	c=1 d=0.0420036 t=1274
+hui bu hui 	會不會	c=1 d=1 t=1270
+hui fu 	回覆	c=1 d=0.349938 t=1274
+hui su 	回溯	c=1 d=0.891366 t=1274
+hui tou 	回頭	c=1 d=0.0422141 t=1274
+huo 	或	c=4 d=1.25977 t=1274
+huo hua 	火花	c=0 d=0.0100761 t=1274
+huo hua ze 	火花則	c=1 d=0.101266 t=1274
+huo zhe 	或者	c=1 d=0.185444 t=1274
+ji 	即	c=1 d=0.0116203 t=1274
+ji 	集	c=2 d=0.27612 t=1274
+ji ben 	基本	c=1 d=0.301194 t=1274
+ji ge 	幾個	c=2 d=0.0846204 t=1274
+ji he 	集合	c=6 d=0.977737 t=1274
+ji qiao 	技巧	c=1 d=0.190139 t=1274
+ji shu 	奇數	c=2 d=0.990943 t=1274
+ji suan 	計算	c=1 d=0.226502 t=1274
+ji wei 	記爲	c=2 d=0.0263164 t=1274
+ji xian 	極限	c=1 d=0.603506 t=1274
+ji yi 	記憶	c=0 d=0.0227638 t=1274
+ji zhu 	記住	c=1 d=1 t=1244
+jia fa 	加法	c=1 d=1 t=1259
+jia ru 	加入	c=1 d=0.615697 t=1274
+jia she 	假設	c=1 d=0.0911727 t=1274
+jian fa 	減法	c=1 d=1 t=1261
+jian yi 	建議	c=1 d=0.153355 t=1274
+jiang 	將	c=1 d=0.0131019 t=1274
+jiang 	降	c=1 d=0.873716 t=1274
+jiao 	交	c=0 d=0.00301974 t=1274
+jiao 	教	c=1 d=0.140156 t=1274
+jiao cheng 	教程	c=1 d=0.965605 t=1274
+jiao fu 	教父	c=1 d=0.951229 t=1274
+jie 	介	c=1 d=0.225373 t=1274
+jie 	節	c=1 d=0.0365162 t=1274
+jie 	解	c=4 d=0.506251 t=1274
+jie 	階	c=1 d=0.0202419 t=1274
+jie da 	解答	c=1 d=0.97531 t=1274
+jie jin 	接近	c=2 d=1.55014 t=1274
+jie jue 	解決	c=2 d=0.0919647 t=1274
+jie lun 	結論	c=1 d=0.062662 t=1274
+jie shi 	解釋	c=1 d=0.308819 t=1274
+jie shou 	接收	c=1 d=0.26054 t=1274
+jin 	僅	c=1 d=0.470011 t=1274
+jin shi 	近視	c=0 d=0.0904837 t=1274
+jin shi dai shu 	近視代數	c=1 d=0.909373 t=1274
+jing yan 	經驗	c=1 d=0.194868 t=1274
+jing yan na 	經驗那	c=1 d=0.0665368 t=1274
+jiu 	就	c=1 d=0.0372538 t=1274
+ju li 	距離	c=2 d=0.628135 t=1274
+ju zhen 	矩陣	c=3 d=2.19343 t=1274
+juan zhi 	捲紙	c=1 d=0.67368 t=1274
+kan 	看	c=3 d=0.332558 t=1274
+kan dao 	看到	c=1 d=0.197899 t=1274
+kan wan 	看完	c=1 d=0.141564 t=1274
+kao juan 	考卷	c=1 d=0.66034 t=1274
+kao lv 	考慮	c=1 d=0.404542 t=1274
+ke 	可	c=3 d=0.0377617 t=1274
+ke cheng 	課程	c=3 d=0.380827 t=1274
+ke da 	柯達	c=1 d=0.165299 t=1274
+ke tang 	課堂	c=1 d=0.941765 t=1274
+ke yi 	可以	c=5 d=1.52885 t=1274
+kong ge 	空格	c=1 d=0.733447 t=1274
+kou yu 	口語	c=2 d=1.27277 t=1274
+kuai 	塊	c=1 d=0.0287246 t=1274
+kuan 	寬	c=1 d=0.0578443 t=1274
+lai de ji 	來得及	c=1 d=0.159614 t=1274
+lai shuo 	來說	c=1 d=0.501576 t=1274
+lan 	藍	c=1 d=0.229925 t=1274
+lao shi 	老師	c=5 d=0.818801 t=1274
+le 	了	c=8 d=1.10027 t=1274
+lei 	類	c=1 d=0.839457 t=1274
+lei tui 	類推	c=1 d=0.715338 t=1274
+li 	李	c=1 d=0.232236 t=1274
+li 	裏	c=7 d=0.555391 t=1274
+li jie 	理解	c=1 d=0.0868453 t=1274
+lian xi 	聯繫	c=1 d=0.0381969 t=1274
+lian xu 	連續	c=2 d=1.32711 t=1274
+liang 	樑	c=1 d=0.121238 t=1274
+liang 	量	c=2 d=0.900994 t=1274
+liang dian 	兩點	c=1 d=0.0139818 t=1274
+liang ge 	兩個	c=4 d=0.841237 t=1274
+liao jie 	瞭解	c=1 d=0.0338776 t=1274
+lie 	列	c=3 d=0.114872 t=1274
+liu zhang 	六章	c=1 d=0.018968 t=1274
+lu jing 	路徑	c=1 d=0.878095 t=1274
+lun 	論	c=1 d=0.67032 t=1274
+lv 	率	c=1 d=0.744532 t=1274
+ma 	碼	c=1 d=0.224249 t=1274
+ma er 	馬爾	c=0 d=0.0240508 t=1274
+ma er ke fu 	馬爾可夫	c=1 d=0.241714 t=1274
+ma fan 	麻煩	c=1 d=0.054204 t=1274
+mao dun 	矛盾	c=1 d=0.0645703 t=1274
+mei 	沒	c=3 d=0.253935 t=1274
+mei ge 	每個	c=1 d=0.429557 t=1274
+mei ge ren 	每個人	c=1 d=0.298197 t=1274
+mei you 	沒有	c=2 d=0.30788 t=1274
+mei zhong 	每種	c=1 d=0.45612 t=1274
+men 	們	c=1 d=0.115903 t=1274
+mi 	冪	c=0 d=0.00108347 t=1274
+mi ji shu 	冪級數	c=2 d=0.0385524 t=1274
+mi ma 	密碼	c=1 d=0.331211 t=1274
+mian 	麪	c=1 d=0.0409665 t=1274
+mo shi 	模式	c=1 d=0.818731 t=1274
+mou ge 	某個	c=1 d=0.0115624 t=1274
+mu biao 	目標	c=1 d=0.0972957 t=1274
+mu lu 	目錄	c=1 d=0.33454 t=1274
+na 	那	c=0 d=0.0281098 t=1274
+na li 	那裏	c=2 d=0.172471 t=1274
+na me 	那麼	c=1 d=0.806541 t=1274
+na yang 	那樣	c=1 d=0.264477 t=1274
+na yi jie 	那一節	c=1 d=0.199888 t=1274
+nei rong 	內容	c=1 d=0.562705 t=1274
+neng 	能	c=3 d=0.400034 t=1274
+neng yong 	能用	c=1 d=1 t=1252
+ni 	你	c=1 d=0.970446 t=1274
+ni hao 	你好	c=1 d=0.00914087 t=1274
+ni ming 	匿名	c=1 d=0.71177 t=1274
+ni zai 	你在	c=1 d=1 t=1243
+nin 	您	c=7 d=1.10081 t=1274
+nin de 	您的	c=1 d=0.0706512 t=1274
+nin hao 	您好	c=1 d=0.0325493 t=1274
+niu dun 	牛頓	c=1 d=0.236928 t=1274
+ou shu 	偶數	c=3 d=1.46318 t=1274
+pai 	排	c=1 d=0.0314298 t=1274
+pai lie 	排列	c=7 d=1.39216 t=1274
+pian wei fen 	偏微分	c=3 d=1.08013 t=1274
+ping shi 	平時	c=1 d=0.0387742 t=1274
+qi 	七	c=1 d=0.767206 t=1274
+qi 	其	c=1 d=0.418952 t=1274
+qi ci 	齊次	c=2 d=0.573382 t=1274
+qi mo 	期末	c=1 d=0.677057 t=1274
+qi pan 	棋盤	c=2 d=0.0584022 t=1274
+qi zhong 	其中	c=6 d=0.454827 t=1274
+qian mian 	前面	c=2 d=0.0894725 t=1274
+qie pian 	切片	c=1 d=0.339596 t=1274
+qing jiao 	請教	c=3 d=0.420524 t=1274
+qing kuang 	情況	c=3 d=1.14899 t=1274
+qing wen 	請問	c=3 d=0.380928 t=1274
+qiu 	求	c=1 d=0.280832 t=1274
+qiu 	球	c=1 d=0.427415 t=1274
+qu 	取	c=1 d=0.597501 t=1274
+quan 	全	c=1 d=0.115812 t=1274
+quan bu 	全部	c=1 d=0.263158 t=1274
+quan gai lv 	全概率	c=1 d=1 t=1265
+quan jiao 	全角	c=1 d=0.729789 t=1274
+quan pai lie 	全排列	c=2 d=0.898092 t=1274
+ran hou 	然後	c=1 d=0.0953692 t=1274
+ren 	任	c=2 d=1.16563 t=1274
+ren yi 	任意	c=3 d=0.369696 t=1274
+ri chang 	日常	c=5 d=2.10171 t=1274
+ri li 	日曆	c=1 d=0.612626 t=1274
+rong chi 	容斥	c=1 d=0.0238732 t=1274
+rong chi 	熔池	c=1 d=0.0237541 t=1274
+ru guo 	如果	c=4 d=0.203571 t=1274
+ru he 	如何	c=1 d=0.053397 t=1274
+ruo 	若	c=8 d=2.3249 t=1274
+san ci 	三次	c=1 d=0.315058 t=1274
+shan chu 	刪除	c=2 d=0.504975 t=1274
+shang 	上	c=7 d=2.47182 t=1274
+shang 	尚	c=1 d=0.2334 t=1274
+shang ci 	上次	c=1 d=1 t=1245
+she 	設	c=5 d=0.535646 t=1274
+shen me 	什麼	c=1 d=0.0566989 t=1274
+sheng cheng 	生成	c=7 d=0.865804 t=1274
+sheng cheng han shu 	生成函數	c=2 d=0.0359101 t=1274
+sheng diao 	聲調	c=1 d=0.759572 t=1274
+shi 	式	c=1 d=0.0135686 t=1274
+shi 	是	c=17 d=5.37309 t=1274
+shi 	時	c=12 d=2.65037 t=1274
+shi 	試	c=0 d=0.1 t=1250
+shi bian 	實變	c=3 d=2.27016 t=1274
+shi fou 	是否	c=1 d=0.114178 t=1274
+shi hou 	時候	c=3 d=0.164115 t=1274
+shi jie 	世界	c=1 d=0.228779 t=1274
+shi li 	實例	c=1 d=0.0812682 t=1274
+shi pin 	視頻	c=4 d=1.43572 t=1274
+shi wei 	視爲	c=1 d=0.360595 t=1274
+shi yi xia 	試一下	c=1 d=1 t=1251
+shi zhong 	始終	c=1 d=0.726149 t=1274
+shou lian 	收斂	c=1 d=0.585669 t=1274
+shu 	數	c=9 d=2.4675 t=1274
+shu jia 	暑假	c=1 d=0.0368832 t=1274
+shu lie 	數列	c=2 d=0.0321983 t=1274
+shu mu 	數目	c=1 d=0.532592 t=1274
+shu ru 	輸入	c=1 d=1 t=1246
+shu ru fa 	輸入法	c=1 d=1 t=1250
+shu xue 	數學	c=1 d=0.701173 t=1274
+shu zi 	數字	c=3 d=0.643268 t=1274
+si 	斯	c=0 d=0.1 t=1266
+si ge 	四個	c=1 d=0.264477 t=1274
+si ran 	似然	c=1 d=0.236928 t=1274
+si xia 	私下	c=1 d=0.215456 t=1274
+su miao 	素描	c=1 d=0.289384 t=1274
+su shu 	素數	c=1 d=0.0123604 t=1274
+su shu mi 	素數冪	c=1 d=0.010889 t=1274
+sui ji 	隨機	c=2 d=0.869358 t=1274
+sui ran 	雖然	c=1 d=0.0374406 t=1274
+suo qiu 	所球	c=1 d=0.279431 t=1274
+suo yi 	所以	c=2 d=0.896324 t=1274
+suo you 	所有	c=1 d=0.0244775 t=1274
+ta 	它	c=1 d=0.00975476 t=1274
+ta men 	他們	c=1 d=0.514274 t=1274
+ta men 	它們	c=2 d=1.06842 t=1274
+te bie 	特別	c=2 d=0.0633329 t=1274
+te jie 	特解	c=2 d=0.560088 t=1274
+te zheng 	特徵	c=2 d=1.10597 t=1274
+ti 	題	c=1 d=0.0175097 t=1274
+ti qian 	提前	c=1 d=0.307279 t=1274
+tian jia 	添加	c=1 d=0.0982736 t=1274
+tiao guo 	跳過	c=1 d=0.10435 t=1274
+tiao jian 	條件	c=4 d=1.06245 t=1274
+ting shuo 	聽說	c=1 d=0.120032 t=1274
+tong 	同	c=2 d=0.499577 t=1274
+tong hua shun 	同花順	c=1 d=0.29671 t=1274
+tong jie 	通解	c=1 d=0.543351 t=1274
+tong li 	同理	c=3 d=2.54818 t=1274
+tong wei 	同爲	c=1 d=0.491644 t=1274
+tu 	圖	c=1 d=0.255381 t=1274
+tu pian 	圖片	c=1 d=0.351692 t=1274
+tu xiang 	圖像	c=2 d=0.765825 t=1274
+tui jian 	推薦	c=1 d=0.364219 t=1274
+tui lun 	推論	c=2 d=0.484676 t=1274
+tuo pu 	拓撲	c=1 d=0.932394 t=1274
+wan 	完	c=2 d=0.160967 t=1274
+wan cheng 	完成	c=2 d=0.129742 t=1274
+wan quan 	完全	c=1 d=0.985112 t=1274
+wang 	往	c=2 d=0.866363 t=1274
+wang luo 	網絡	c=1 d=0.937067 t=1274
+wei 	爲	c=23 d=4.18903 t=1274
+wei fen 	微分	c=1 d=0.923116 t=1274
+wei fen fang cheng 	微分方程	c=1 d=0.341298 t=1274
+wei feng 	微風	c=1 d=0.918512 t=1274
+wei ji fen 	微積分	c=1 d=0.235746 t=1274
+wei shen me 	爲什麼	c=2 d=0.202535 t=1274
+wei xin 	微信	c=2 d=0.726845 t=1274
+wei yi 	唯一	c=1 d=0.0107269 t=1274
+wei zhi 	位置	c=3 d=0.309031 t=1274
+wen 	問	c=1 d=0.0174224 t=1274
+wen ti 	問題	c=7 d=0.45922 t=1274
+wo 	我	c=26 d=2.15263 t=1274
+wu 	五	c=1 d=0.0143357 t=1274
+wu 	無	c=0 d=0.0227638 t=1274
+wu ji yi 	無記憶	c=2 d=0.497252 t=1274
+wu pin 	物品	c=1 d=0.0824965 t=1274
+wu qiong 	無窮	c=1 d=0.594521 t=1274
+wu ti 	物體	c=1 d=0.0263839 t=1274
+wu xu 	無序	c=2 d=0.403499 t=1274
+wu yi 	無意	c=1 d=0.0889216 t=1274
+xi la 	希臘	c=2 d=1.26573 t=1274
+xi shu 	係數	c=2 d=0.568553 t=1274
+xi ti 	習題	c=1 d=0.970446 t=1274
+xi wang 	希望	c=1 d=0.147342 t=1274
+xia 	下	c=2 d=0.328221 t=1274
+xia xue qi 	下學期	c=1 d=0.327915 t=1274
+xian xing 	線性	c=2 d=0.704309 t=1274
+xian zhi 	限制	c=1 d=0.0354196 t=1274
+xian zhuang 	現狀	c=1 d=0.146607 t=1274
+xiang 	像	c=1 d=0.26054 t=1274
+xiang 	向	c=4 d=0.580688 t=1274
+xiang 	想	c=3 d=0.411665 t=1274
+xiang dang yu 	相當於	c=1 d=0.88692 t=1274
+xiang tong 	相同	c=1 d=0.453845 t=1274
+xiao guo 	效果	c=1 d=0.0916297 t=1274
+xiao qiu 	小球	c=1 d=0.477114 t=1274
+xie 	些	c=1 d=0.107528 t=1274
+xie xie 	謝謝	c=1 d=0.154896 t=1274
+xin dao 	信道	c=2 d=0.507506 t=1274
+xin de 	心得	c=1 d=0.0531307 t=1274
+xin sheng 	新生	c=1 d=0.167797 t=1274
+xin yuan 	信源	c=2 d=0.488293 t=1274
+xing 	型	c=6 d=0.878967 t=1274
+xing shi 	形式	c=4 d=0.490843 t=1274
+xing zhi 	性質	c=11 d=1.01645 t=1274
+xu lie 	序列	c=1 d=0.272532 t=1274
+xu yao 	需要	c=4 d=0.348265 t=1274
+xuan 	選	c=2 d=1.20798 t=1274
+xuan chu 	選出	c=1 d=0.0275983 t=1274
+xuan qu 	選取	c=2 d=0.656982 t=1274
+xuan ze 	選擇	c=1 d=0.438235 t=1274
+xue qi 	學期	c=1 d=0.31346 t=1274
+xue sheng 	學生	c=3 d=0.243329 t=1274
+xue shu 	學術	c=1 d=0.292293 t=1274
+xue xi 	學習	c=3 d=0.458744 t=1274
+yan zheng 	驗證	c=1 d=0.213312 t=1274
+yang 	樣	c=1 d=0.055299 t=1274
+yao 	要	c=1 d=0.275271 t=1274
+yao qiu 	要求	c=1 d=0.404542 t=1274
+ye 	也	c=6 d=0.336682 t=1274
+yi 	一	c=2 d=0.743077 t=1274
+yi 	易	c=1 d=0.839457 t=1274
+yi ban 	一般	c=3 d=0.562512 t=1274
+yi ban na 	一般那	c=1 d=0.0160829 t=1274
+yi bian 	一遍	c=1 d=0.161218 t=1274
+yi ci 	依次	c=1 d=0.71177 t=1274
+yi ge 	一個	c=7 d=2.01348 t=1274
+yi hou 	以後	c=1 d=0.319819 t=1274
+yi jie 	一節	c=1 d=0.126347 t=1274
+yi jie 	一階	c=2 d=0.617623 t=1274
+yi jing 	已經	c=4 d=0.327458 t=1274
+yi kai shi 	一開始	c=1 d=0.0430669 t=1274
+yi xia 	一下	c=0 d=0.1 t=1250
+yi xie 	一些	c=5 d=0.523902 t=1274
+yi xue 	醫學	c=2 d=0.715093 t=1274
+yi yi 	意義	c=2 d=1.21777 t=1274
+yi zhi 	一致	c=0 d=0.0644036 t=1274
+yi zhi lian xu 	一致連續	c=1 d=0.647265 t=1274
+yi zhong 	一種	c=2 d=0.701999 t=1274
+yin li 	引理	c=1 d=0.0294518 t=1274
+yin wei 	因爲	c=3 d=0.935572 t=1274
+yin ying 	陰影	c=1 d=0.0285814 t=1274
+yin yong 	引用	c=1 d=0.346456 t=1274
+yin zi 	因子	c=1 d=0.0117959 t=1274
+ying gai 	應該	c=4 d=0.233843 t=1274
+ying yu 	英語	c=1 d=0.323033 t=1274
+yong 	用	c=4 d=0.333633 t=1274
+you 	佑	c=2 d=0.612928 t=1274
+you 	又	c=1 d=0.822835 t=1274
+you 	有	c=12 d=2.75141 t=1274
+you 	由	c=2 d=1.68325 t=1274
+you guan 	有關	c=2 d=1.15428 t=1274
+you jian 	郵件	c=1 d=0.209088 t=1274
+you jie 	有界	c=1 d=0.609571 t=1274
+you xian zhi 	有限制	c=1 d=0.299692 t=1274
+you xie 	有些	c=1 d=0.111359 t=1274
+you xu 	有序	c=5 d=1.91983 t=1274
+you yu 	優於	c=1 d=0.88692 t=1274
+yu 	於	c=1 d=0.465334 t=1274
+yu 	與	c=8 d=5.33838 t=1274
+yu dao 	遇到	c=3 d=0.312943 t=1274
+yu ju 	語句	c=1 d=0.100259 t=1274
+yuan 	元	c=1 d=0.304221 t=1274
+yuan cheng 	遠程	c=1 d=0.332871 t=1274
+yuan li 	原理	c=1 d=0.0239928 t=1274
+yue du 	閱讀	c=2 d=0.246534 t=1274
+za 	咋	c=1 d=0.97531 t=1274
+zai 	再	c=3 d=0.626879 t=1274
+zai 	在	c=16 d=2.03511 t=1274
+ze 	則	c=14 d=5.40723 t=1274
+zeng jia 	增加	c=1 d=0.186374 t=1274
+zhan kai 	展開	c=2 d=0.522465 t=1274
+zhang 	張	c=1 d=0.29523 t=1274
+zhang 	章	c=3 d=0.782371 t=1274
+zhang jie 	章節	c=2 d=0.0846718 t=1274
+zhao 	找	c=1 d=0.0642483 t=1274
+zhao yang 	趙陽	c=2 d=0.313698 t=1274
+zhe 	這	c=1 d=0.0746459 t=1274
+zhe ge 	這個	c=1 d=0.106992 t=1274
+zhe jiu shi 	這就是	c=1 d=0.143704 t=1274
+zhe xie 	這些	c=2 d=0.253512 t=1274
+zhe xue qi 	這學期	c=1 d=0.120633 t=1274
+zhe yang 	這樣	c=2 d=1.98511 t=1272
+zhen de 	真的	c=1 d=1 t=1273
+zheng 	正	c=1 d=0.447088 t=1274
+zheng 	證	c=1 d=0.843665 t=1274
+zheng ming 	證明	c=8 d=0.794915 t=1274
+zheng shu 	整數	c=1 d=0.489192 t=1274
+zheng zheng shu 	正整數	c=6 d=1.95107 t=1274
+zhi 	之	c=1 d=0.0134335 t=1274
+zhi 	只	c=2 d=0.420836 t=1274
+zhi 	志	c=1 d=0.23457 t=1274
+zhi dian 	指點	c=1 d=0.151829 t=1274
+zhi huan qun 	置換羣	c=1 d=0.786628 t=1274
+zhi jie 	直接	c=1 d=0.0934807 t=1274
+zhi shu 	指數	c=2 d=0.274062 t=1274
+zhi zao 	製造	c=1 d=0.182684 t=1274
+zhong 	中	c=13 d=3.33197 t=1274
+zhong 	種	c=6 d=2.86652 t=1274
+zhong cun 	中村	c=1 d=0.22313 t=1274
+zhong guo 	中國	c=2 d=0.375501 t=1274
+zhong ke yuan 	中科院	c=1 d=0.99005 t=1274
+zhong wen 	中文	c=1 d=0.946485 t=1274
+zhu ti 	主題	c=1 d=0.937067 t=1274
+zhu ye 	主頁	c=1 d=0.128093 t=1274
+zhu yi 	注意	c=2 d=0.690305 t=1274
+zhuang 	裝	c=1 d=0.425283 t=1274
+zhuang tai 	狀態	c=1 d=0.2784 t=1274
+zhuang tai ji 	狀態集	c=1 d=0.244143 t=1274
+zhun bei 	準備	c=1 d=0.318224 t=1274
+zi 	子	c=0 d=0.00305009 t=1274
+zi cong 	自從	c=1 d=0.0366992 t=1274
+zi ji 	子集	c=6 d=3.52081 t=1274
+zi kong jian 	子空間	c=1 d=0.687289 t=1274
+zi liao 	資料	c=1 d=0.12938 t=1274
+zi lie 	子列	c=1 d=0.588605 t=1274
+zi mu 	字母	c=1 d=0.637628 t=1274
+zi qi pan 	子棋盤	c=1 d=0.0306538 t=1274
+zi ran 	自然	c=1 d=0.0098528 t=1274
+zi ran shu 	自然數	c=2 d=0.0227919 t=1274
+zi xing 	自行	c=1 d=0.0492917 t=1274
+zu he 	組合	c=10 d=2.84088 t=1274
+zui da 	最大	c=1 d=0.235746 t=1274
+zui jin 	最近	c=2 d=0.184904 t=1274
+zui xiao 	最小	c=1 d=0.255825 t=1274
+zui xiao ju li 	最小距離	c=1 d=0.225373 t=1274
+zuo 	做	c=3 d=0.322399 t=1274

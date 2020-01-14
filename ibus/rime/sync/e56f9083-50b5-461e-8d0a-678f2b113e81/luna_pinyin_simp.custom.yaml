@@ -1,0 +1,66 @@
+patch:
+
+  "engine/filters/@next": cjk_minifier
+  "engine/translators/@next": reverse_lookup_translator
+
+  translator:
+    dictionary: luna_pinyin.extended
+    enable_charset_filter: true                          #启用罕见字過濾
+
+  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
+
+  punctuator:                                            # 符号快速输入和部分符号的快速上屏
+    import_preset: symbols
+    full_shape:
+      '<' : '《'
+      '>' : '》'
+      '/' : '／'
+      '?' : { commit: ？ }
+      ';' : { commit: ； }
+      ':' : { commit: ： }
+      '''' : { pair: [ '‘', '’' ] }
+      '"' : { pair: [ '“', '”' ] }
+      '\' : '、'
+      '|' : '|'
+      '`' : '`'
+      '~' : '～'
+      '!' : { commit: ！ }
+      '@' : '@'
+      '#' : '#'
+      '%' : '%'
+      '$' : '￥'
+      '^' : { commit: …… }
+      '&' : '&'
+      '*' : '*'
+      '(' : '（'
+      ')' : '）'
+      '-' : '－'
+      '_' : '——'
+      '+' : '+'
+      '=' : '='
+      '[' : '【'
+      ']' : '】'
+      '{' : '{'
+      '}' : '}'
+    half_shape:
+      "#": "#"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": "/"
+      '\': "、"
+      "'": "'"
+      "[": "["
+      "]": "]"
+      "$": "$"
+      "<": "<"
+      ">": ">"
+
+  recognizer:
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+      punct: "^/([a-z]+|[0-9]0?)$"
+      reverse_lookup: "`[a-z]*'?$"

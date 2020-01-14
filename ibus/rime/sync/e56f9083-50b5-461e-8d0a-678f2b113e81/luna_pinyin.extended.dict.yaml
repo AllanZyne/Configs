@@ -1,0 +1,21 @@
+---
+name: luna_pinyin.extended
+version: "2015.12.02"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.cn_en
+  - luna_pinyin.computer
+  - luna_pinyin.daily
+  - luna_pinyin.emoji
+  - luna_pinyin.hanyu
+  - luna_pinyin.i
+  - luna_pinyin.kaomoji
+  - luna_pinyin.movie
+  - luna_pinyin.music
+  - luna_pinyin.name
+  - luna_pinyin.poetry
+  - luna_pinyin.sgmain
+  - luna_pinyin.sogou
+...
