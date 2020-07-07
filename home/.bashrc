@@ -8,4 +8,6 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+PATH=$PATH:~/.local/bin
+
 #source /etc/profile.d/autojump.bash
