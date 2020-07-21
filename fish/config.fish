@@ -1,3 +1,9 @@
+function fish_greeting
+#    echo "  (\_/) "
+#    echo "  (O.<)   お帰りなさいませ、ご主人様💗"
+#    echo "  (_ _) "
+end
+
 function fish_prompt
     set -l color_cwd
     set -l color_user $fish_color_user 
@@ -34,3 +40,4 @@ end
 
 bind \cx\cs prepend_sudo
 
+source ~/.alias

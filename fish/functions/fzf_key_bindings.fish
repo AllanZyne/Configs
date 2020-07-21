@@ -1,5 +1,12 @@
 # Key bindings
 # ------------
+# CTRL-T - Paste the selected files and directories onto the command-line
+# CTRL-R - Paste the selected command from history onto the command-line
+# ALT-C  - cd into the selected directory
+
+# Using tree command to show the entries of the directory
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
+
 function fzf_key_bindings
 
   # Store current token in $dir as root for the 'find' command
