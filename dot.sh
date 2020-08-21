@@ -16,18 +16,34 @@ function prepare() {
     mkdir -p "$HOME/.config"
 }
 
+function _remove() {
+    target=$1
+
+    if [ -h $target ] # symbolic link
+    then
+        rm $target
+    elif [ -d $target ] # directory
+    then
+        rm -r $target
+    else
+        rm $target
+    fi
+}
+
 function _link() {
     source=$1
     target=$2
-    ln -s "$source" "$target"
-    if [ $? = 1 ]
+    
+    if [ -e $target ] # file exists
     then
         read -r -p "Force link? [y/N] " response
         if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
         then
-            rm -r "$target"
-            ln -s "$source" "$target"
+            _remove "$target"
+            ln -s -f "$source" "$target"
         fi
+    else
+        ln -s "$source" "$target"
     fi
 }
 
