@@ -48,3 +48,13 @@ if test -e ~/anaconda3/etc/fish/conf.d/conda.fish
     source ~/anaconda3/etc/fish/conf.d/conda.fish
     conda activate base
 end
+
+set -x EDITOR nvim
+
+# XGD
+set -x XDG_DATA_HOME $HOME/.local/share
+set -x XDG_CONFIG_HOME $HOME/.config
+set -x XDG_CACHE_HOME $HOME/.cache
+
+# PATH
+set -gx PATH ~/.local/bin $PATH
