@@ -1,6 +1,14 @@
 # vim: set ft=sh fdm=marker:
 
-if [[ `uname` = Linux ]]; then
+if [ -f ~/.alias ]; then
+    . ~/.alias
+fi
+
+LOCAL=$HOME/.local
+UNAME=$(uname)
+
+# core {{{1
+if [[ $UNAME = Linux ]]; then
   alias ls=$'ls -XF --group-directories-first --color=auto --time-style="+\e[33m[\e[32m%Y-%m-%d \e[35m%k:%M\e[33m]\e[m"'
 else
   alias ls="ls -F"
@@ -11,44 +19,16 @@ md() {
   cd "$1"
 }
 
-LOCAL=$HOME/.local
-UNAME=$(uname)
-
-# core {{{1
-alias sudo='sudo ' # zsh: next word is elligible for alias expansion
-alias L=less
-alias d='dirs -v'
-alias eg='egrep --color=auto -I'
-alias g='grep --color=auto -I'
-alias l="ls -l"
-alias la='l -A'
-alias lh='l -lh'
-# alias mk=make
-# alias ni=ninja
-alias o=xdg-open
-alias pa=parallel
-alias pg='pgrep --full --list-full'
-alias pk='pgrep --full'
-alias psg='ps aux|grep --color=auto'
-alias tail='tail -n $((${LINES:-`tput lines 4>/dev/null||echo -n 12`} - 3))'
-alias which='which -a'
-
-## with common options
-alias cp='cp -iv'
-alias df='df -Th'
 if [[ $UNAME == Linux ]]; then
   alias rm='rm -v --one-file-system' # -d since coreutils-8.19, `rm -rf` is evil
 else
   alias rm='rm -v'
 fi
-alias dmesg='dmesg -H || dmesg | less'
-alias du='du -h'
-alias free='free -m'
-alias head='head -n $((${LINES:-`tput lines 4>/dev/null||echo -n 12`} - 3))'
-alias mv='mv -iv'
 
 # zsh specific {{{1
 if [[ -n $ZSH_VERSION ]]; then
+  alias sudo='sudo ' # zsh: next word is elligible for alias expansion
+
   alias -g E="|sed"
   alias -g L="|less"
   alias -g P="|column -t"
@@ -60,6 +40,8 @@ if [[ -n $ZSH_VERSION ]]; then
   alias -g T="|tail -n $(($LINES-2))"
   alias -g N='>/dev/null'
   alias -g NN='>/dev/null 2>&1'
+  alias -g NF=".*(oc[1])"
+  alias -g ND="/*(oc[1])"
   alias -g X='| xargs'
   alias -g X0='| xargs -0'
   alias -g B='|sed '\''s/\x1B\[[0-9;]*[JKmsu]//g'\'
@@ -100,216 +82,11 @@ if [[ -n $ZSH_VERSION ]]; then
   hash -d d=~/Documents
 fi
 
-# auto sudo {{{1
-alias brctl='sudo brctl'
-alias ip='sudo ip'
-alias iw='sudo iw'
-alias mount='sudo mount'
-alias netstat='sudo netstat'
-alias nmap='sudo nmap'
-alias ss='sudo ss'
-alias tc='sudo tc'
-alias umount='sudo umount'
-alias sv='sudo vi'
-alias sd='sudo sysdig'
-
-# dev {{{1
-alias gdb='gdb -q'
-alias agdb='gdb -ix ~/.gdb/gdbinit.algo'
-alias ggdb='gdb -ix ~/.gdb/gdbinit.gef'
-alias pgdb='gdb -ix ~/.gdb/gdbinit.pwndbg'
-
-alias cl=clang++
-alias db=lldb
-alias j8=/usr/lib/j8/bin/jconsole
-alias jqt=/usr/lib/j8/bin/jqt
-alias lid.sys='lid-idutils -f ~/Util/idutils/usr-include.ID'
-alias mkid.sys='mkid -f ~/Util/idutils/usr-include.ID /usr/include'
-alias segf='LD_PRELOAD=/usr/lib/libSegFault.so SEGFAULT_SIGNALS=all'
 devflag() { set -x; export CFLAGS="-g3 -fsanitize=address,undefined"; export CXXFLAGS="$CFLAGS -std=c++1y"; set +x; }
 optflag() { set -x; export CFLAGS="-g3 -O3 -fkeep-inline-functions"; export CXXFLAGS=$CFLAGS; set +x; }
 unflag() { set -x; unset CFLAGS CXXFLAGS; set +x; }
 
 # applications {{{1
-# alias book='cd ~/Book && xdg-open http://0:4000; gitbook serve -o /tmp/book'
-# alias cifs='sudo mount -t cifs //10.0.0.3/c /mnt -o iocharset=utf8,user=Administrator,pass=,uid=1000,gid=1000,users --verbose'
-alias clip='xclip -i -selection clipboard'
-# alias dhc='sudo dhcpcd -x wlp3s0; sudo dhcpcd wlp3s0 -C /lib/dhcpcd/dhcpcd-hooks/20-resolv.conf'
-# alias drsync='rsync --progress --partial --delete --size-only'
-alias e='TERM=xterm-termite-24bits emacsclient -nw -c'
-alias mt=multitail
-alias mtr='sudo mtr --curses'
-alias px='proxychains -f ~/.config/proxychains0.conf'
-alias px1='proxychains -f ~/.config/proxychains1.conf'
-alias py=python
-alias py2=python2
-alias py3=python3
-# alias qq='wine ~/.wine/drive_c/Program\ Files/QQ/Bin/QQ.exe'
-alias rb=ruby
-alias se=sudoedit
-alias tmuxa='tmux a || tmux new -s default' # TODO tmux 2.0 supports attach-session -A
-alias vimmin='vi -u NONE --cmd "set nocp | sy on | filetype plugin indent on"' # install aur/neovim-git && ln -sf nvim /usr/bin/vi
-# alias wee=weechat-curses
-alias win='WINEPATH="d:/mingw/bin;d:/mingw/msys/1.0/bin" wine'
-alias xi='xinit -- -nolisten tcp -ardelay 170 -arinterval 40 :0 vt$XDG_VTNR'
-alias xst='xstow -d ~/.local/stow'
-
-## with common options
-alias R='R --quiet'
-alias dstat='dstat -dnmcl --socket --top-io -N enp4s0f2,wlp3s0'
-alias rsync='rsync --progress --partial'
-alias luit='luit -encoding gbk'
-alias wine='WINEDEBUG=-all wine' # turn debugging messages off
-
-# zsh
-if [[ -n $ZSH_VERSION ]]; then
-  alias -g NF=".*(oc[1])"
-  alias -g ND="/*(oc[1])"
-  alias -g N='>/dev/null'
-  alias -g NN='2>/dev/null'
-fi
-
-alias du1='du --max-depth 1 | sort -rh | head'
-alias adate='for i in Asia/{Shanghai,Tokyo} Europe/{Berlin,London} US/{Eastern,Pacific}; do printf %-22s "$i ";TZ=:$i date +"%F %a %T %Z";done'
-alias port='sudo netstat -ntlp'
-alias 2pdf='libreoffice --headless --convert-to pdf' # unoconv -f pdf
-alias 2csv='libreoffice --headless --convert-to csv'
-alias g2u='iconv -f GBK -t UTF-8'
-alias u2g='iconv -f UTF-8 -t GBK'
-alias pwget='proxychains wget'
-alias vnc='vncviewer -QualityLevel=0 -CompressLevel=3 -PreferredEncoding=ZRLE -FullScreen=1 -Shared=1'
-alias spice='spicec -h 0 -p 5900'
-# alias matlab='~/.local/opt/matlab/bin/matlab'
-# alias math='~/.local/opt/mathematica/Executables/Mathematica -graphicssystem native'
-# alias matlabc='~/.local/opt/matlab/bin/matlab -nodisplay -r clc'
-alias blockdump='sudo sysctl vm.block_dump=1'
-alias mtp='simple-mtpfs /media'
-
-# git {{{1
-alias ga='git add'
-alias gau='git add -u'
-alias gcam='git commit -am'
-alias pgcl='px git clone'
-alias gb='git branch'
-alias gcl='git clone'
-alias gcm='git commit -m'
-alias gco='git checkout'
-alias gd='git diff'
-alias gdc='git diff --cached'
-alias gdn='git diff --name-only'
-alias gg='git grep'
-alias ggl='git grep --files-with-matches'
-alias gl='git log'
-alias glp='git log -p'
-alias gpl='git pull'
-alias gpu='git push'
-alias gs='git status'
-alias ghost='command gs'
-alias grt='[[ ! -z `git rev-parse --show-cdup` ]] && cd `git rev-parse --show-cdup` || pwd'
-
-# systemd {{{1
-alias sy='sudo systemctl'
-alias syu='systemctl --user'
-alias status='sudo systemctl status'
-alias start='sudo systemctl start'
-alias restart='sudo systemctl restart'
-alias reload='sudo systemctl reload'
-alias stop='sudo systemctl stop'
-#alias enable='sudo systemctl enable' # zsh: Failed to issue method call: No such file or directory
-#alias disable='sudo systemctl disable'
-
-alias cal='cal -3'
-
-# package management {{{1
-## Arch Linux {{{2
-alias aS='sudo aura -S'
-alias aSs='aura -Ss'
-alias aA='sudo aura -A'
-alias aAs='aura -As'
-alias aSyu='sudo aura -Syu'
-alias pD='sudo pacman -D'
-alias yS='yay -S'
-alias ySs='yay -Ss'
-alias ySyu='yay -Syua --noconfirm'
-alias pSy='sudo pacman -Sy'
-alias pSyu='sudo pacman -Syu --noconfirm' # Synchronize with repositories and then upgrade packages that are out of date on the local system.
-alias pS='sudo pacman -S'                 # Install specific package(s) from the repositories
-alias pU='sudo pacman -U'                 # Install specific package not from the repositories but from a file
-alias pR='sudo pacman -R'                 # Remove the specified package(s), retaining its configuration(s) and required dependencies
-alias pRns='sudo pacman -Rns'             # Remove the specified package(s), its configuration(s) and unneeded dependencies
-alias pSi='pacman -Si'                    # Display information about a given package in the repositories
-alias pSs='pacman -Ss'                    # Search for package(s) in the repositories
-alias pQi='pacman -Qi'                    # Display information about a given package in the local database
-alias pQs='pacman -Qs'                    # Search for package(s) in the local database
-alias paclo="pacman -Qdt"                 # List all packages which are orphaned
-alias pacc="sudo pacman -Scc"             # Clean cache - delete all not currently installed package files
-alias pQl="pacman -Ql"                    # List all files installed by a given package
-alias pQo="pacman -Qo"
-alias pacexp="sudo pacman -D --asexp"     # Mark one or more installed packages as explicitly installed
-alias pacimp="sudo pacman -D --asdep"     # Mark one or more installed packages as non explicitly installed
-
-## dpkg {{{2
-alias apti='sudo apt-get install'
-alias apts='sudo apt-cache search'
-alias aptr='sudo apt-get remove'
-alias aptu='sudo apt-get update'
-alias aptg='sudo apt-get upgrade'
-alias aptq='apt-cache show'
-
-## yum {{{2
-alias yumi='sudo yum install'             # Installs package(s).
-alias yuml='yum list'                     # Lists packages.
-alias yums='sudo yum search'              # Searches for a package.
-alias yumq='yum info'                     # Displays package information.
-alias yumu='sudo yum update'              # Updates packages.
-alias yumU='sudo yum upgrade'             # Upgrades packages.
-alias yumr='sudo yum remove'              # Removes package(s).
-
-# Gentoo-specific {{{2
-if [[ -n "$EPREFIX" ]]; then
-  SUDO_IFNOT_PREFIX=
-else
-  SUDO_IFNOT_PREFIX='sudo '
-fi
-alias eme="${SUDO_IFNOT_PREFIX}emerge"
-alias peme='sudo proxychains emerge'
-alias ebuildncd="sudo FEATURES='-collision-detect -protected-owned' ebuild"
-alias ei='eix -uI --only-names'
-alias eiu='FORMAT="<installedversions:I>" I="<category>/<name>-<version>[<use>]\n" eix'
-alias disp='sudo dispatch-conf'
-
-# binary {{{1
-alias bv=bviplus
-alias off='LC_ALL=C grep --color=auto -Pabo'
-alias lt=ltrace
-alias ob='objdump -w -M intel'
-alias re='readelf -W'
-alias st=strace
-alias sst='sudo strace'
-alias strings='strings -a -tx' # CVE-2014-8485
-
-# ARM {{{2
-# alias aob=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-objdump
-# alias are=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-readelf
-# alias agcc=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc
-# alias ag++=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++
-# alias aas=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-as
-# alias anm=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-nm
-# alias ald=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-ld
-# alias aldd=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-ldd
-# alias apopulate=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-populate
-
-# MIPSEL {{{2
-# alias moc=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-objcopy
-# alias mob=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-objdump
-# alias mre=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-readelf
-# alias mgcc=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-gcc
-# alias mg++=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-g++
-# alias mas=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-as
-# alias mnm=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-nm
-# alias mld=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-ld
-# alias mldd=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-ldd
-# alias mpopulate=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-populate
 
 # functions {{{1
 

@@ -8,7 +8,6 @@ alias ls='ls -XF --group-directories-first --color=auto --time-style="+%Y-%m-%d 
 # }
 
 # core {{{1
-alias sudo='sudo ' # zsh: next word is elligible for alias expansion
 alias L=less
 alias d='dirs -v'
 alias eg='egrep --color=auto -I'
@@ -190,19 +189,6 @@ alias yumu='sudo yum update'              # Updates packages.
 alias yumU='sudo yum upgrade'             # Upgrades packages.
 alias yumr='sudo yum remove'              # Removes package(s).
 
-# Gentoo-specific {{{2
-# if [[ -n "$EPREFIX" ]]; then
-#   SUDO_IFNOT_PREFIX=
-# else
-#   SUDO_IFNOT_PREFIX='sudo '
-# fi
-# alias eme="${SUDO_IFNOT_PREFIX}emerge"
-# alias peme='sudo proxychains emerge'
-# alias ebuildncd="sudo FEATURES='-collision-detect -protected-owned' ebuild"
-# alias ei='eix -uI --only-names'
-# # alias eiu='FORMAT="<installedversions:I>" I="<category>/<name>-<version>[<use>]\n" eix'
-# alias disp='sudo dispatch-conf'
-
 # binary {{{1
 alias bv=bviplus
 alias off='LC_ALL=C grep --color=auto -Pabo'
@@ -212,26 +198,3 @@ alias re='readelf -W'
 alias st=strace
 alias sst='sudo strace'
 alias strings='strings -a -tx' # CVE-2014-8485
-
-# ARM {{{2
-# alias aob=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-objdump
-# alias are=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-readelf
-# alias agcc=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc
-# alias ag++=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++
-# alias aas=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-as
-# alias anm=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-nm
-# alias ald=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-ld
-# alias aldd=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-ldd
-# alias apopulate=~/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-populate
-
-# MIPSEL {{{2
-# alias moc=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-objcopy
-# alias mob=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-objdump
-# alias mre=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-readelf
-# alias mgcc=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-gcc
-# alias mg++=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-g++
-# alias mas=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-as
-# alias mnm=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-nm
-# alias mld=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-ld
-# alias mldd=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-ldd
-# alias mpopulate=~/x-tools/mipsel-unknown-linux-gnu/bin/mipsel-unknown-linux-gnu-populate
