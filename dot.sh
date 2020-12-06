@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-MOD=$1
 
 info() {
   echo -e "\e[1;34m++++ $*\e[m"
@@ -67,17 +66,22 @@ function link() {
     fi
 }
 
-if [ "$MOD" = "" ]
+if [ $# -eq 0 ]
 then
     prepare
     for dir in $(ls -d */); do
         mod=${dir%%/}
         link $mod
     done
-elif [ -d "$DIR/$MOD" ]
-then
-    prepare
-    link $MOD
-else
-    error "No such MOD"
+    exit
 fi
+
+for MOD in $@; do
+    if [ -d "$DIR/$MOD" ]
+    then
+        prepare
+        link $MOD
+    else
+        error "No such MOD: $MOD"
+    fi
+done
