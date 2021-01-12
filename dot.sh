@@ -132,9 +132,11 @@ fi
 case $1 in
     all)
         info "Link all MODs"
-        for dir in $(ls -d $DIR); do
-            mod=${dir%%/}
-            link_mod $mod
+        for dir in $(find "$DIR" -mindepth 1 -maxdepth 1 -type d); do
+            mod=${dir##*/}
+            if [ $mod != ".git" ]; then 
+                link_mod $mod
+            fi
         done
         ;;
 
