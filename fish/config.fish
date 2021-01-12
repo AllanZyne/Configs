@@ -44,9 +44,21 @@ bind \cx\cs prepend_sudo
 
 source ~/.alias
 
-if test -e ~/anaconda3/etc/fish/conf.d/conda.fish
-    source ~/anaconda3/etc/fish/conf.d/conda.fish
-    conda activate base
+if test -e ~/.config/fish/config.wsl.fish
+    source ~/.config/fish/config.wsl.fish
+end
+
+if test -e ~/.config/fish/config.custom.fish
+    source ~/.config/fish/config.custom.fish
+end
+
+function init_conda
+    if test -e ~/anaconda3/etc/fish/conf.d/conda.fish
+        source ~/anaconda3/etc/fish/conf.d/conda.fish
+        conda activate base
+    else
+        echo Anaconda is not exist
+    end
 end
 
 set -x EDITOR nvim
