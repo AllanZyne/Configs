@@ -44,8 +44,10 @@ bind \cx\cs prepend_sudo
 
 source ~/.alias
 
-if test -e ~/.config/fish/config.wsl.fish
-    source ~/.config/fish/config.wsl.fish
+if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null
+    if test -e ~/.config/fish/config.wsl.fish
+        source ~/.config/fish/config.wsl.fish
+    end
 end
 
 if test -e ~/.config/fish/config.custom.fish
